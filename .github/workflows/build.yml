@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
+        
+      - name: cleanup exist tiles
+        run: rm -rf tiles
 
       - name: 'Generate vector tiles as *.mvt'
         uses: geolonia/geolonia-locations-action@main
