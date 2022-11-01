@@ -1,0 +1,25 @@
+{
+  "tilejson": "3.0.0",
+  "name": ".//tiles",
+  "version": "2",
+  "description": ".//tiles",
+  "type": "overlay",
+  "format": "mvt",
+  "attribution": null,
+  "minzoom": 0,
+  "maxzoom": 14,
+  "center": [
+    135.780029,
+    33.477272,
+    14
+  ],
+  "bounds": [
+    135.651756,
+    33.446471,
+    135.888496,
+    33.561047
+  ],
+  "tiles": [
+    "https://naogify.github.io/kushimoto-hazard-shelter-api/tiles/{z}/{x}/{y}.mvt"
+  ]
+}
